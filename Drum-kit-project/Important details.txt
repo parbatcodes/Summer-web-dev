@@ -1,0 +1,60 @@
+Callback Functions:
+The function which returns the event that triggered it is known as callback function.
+
+Example-
+() =>{
+
+}
+
+setTimeout(function,time in milliseconds):
+
+
+Anonymous Functions:
+let greet = () => {
+	return "hell"
+}
+
+greet();
+which returns hell
+
+addEventListener(event, anonymous function):
+This is used to listen any event which could be a keyboard event, or a click event etc
+The anonymous function executes after the event has occured.
+
+This:
+this is used to refer to an object .
+
+creating objects:
+
+var bellBoy1 = {
+	name: Parbat,
+	age: 21
+}
+
+using an object's values:
+bellBoy1.name;
+
+Constructor Function:
+used to create multiple objects which have the same properties
+
+function BellBoy(name,age){
+	this.name = name;             this.property_name = "Parbat"
+	this.age = age;
+}
+
+using constructor function to create objects
+
+var bellBoy1 = new BellBoy("Parbat",21);
+
+Methods:
+
+function BellBoy(name,age){
+	this.name = name;             
+	this.age = age;
+	this.moveSuitcase = ()=>{
+		move();
+	}
+}
+
+calling the method:
+bellBoy1.moveSuitcase();
