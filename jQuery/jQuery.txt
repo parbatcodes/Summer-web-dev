@@ -1,0 +1,35 @@
+jQuery.
+
+What is CDN?
+
+Minify:
+for minifying css of js code
+
+.animation:
+	-for custom animation
+	-syntax : .animation({any css property with numeric value only });
+
+* we can also chain different animation by writing them one after other like .fadeIn.fadeOut.aimation({opactiy: 0.5;});
+
+.css()
+
+- .addClass() to add a pre existing  class to any element
+	- to add more than two classes just put an space after the first class inside the function and then write the name of the class
+	
+- .hasClass() to check whether an element has a class associated with it or not.
+
+Event Reverence:
+	use this from mdn to know about any event.
+
+jQuery for event listener:
+	1) .eventname(function)
+	2) .on("evntname",function)
+
+$("h1").before("<button> new </button>");   creates a new element just before h1
+$("h1").after("<button> new </button>");             ''  after
+$("h1").prepend("<button> new </button>");          " jusst after the opening tag of h1
+$("h1").append("<button> new </button>");	" just before the closing tag of h1
+$("button").first().remove();                  removes an element
+
+
+- the above 5 commands changes our webpage without affecting the original html code.     surprising!!!!!!!!!
